@@ -1,0 +1,31 @@
+QUESTIONS
+
+      1 Find all employees whose TotalPay is greater than 5,00,000.
+      2 Get Employee Name, Job Title, and Total Pay
+      3 Get Employees Who Earn More Than ₹1,80,000 as TotalPay
+      4 Find Employees Who Earn More Than the Average Total Pay for Their Department
+      5 Retrieve Employee Names with Their Job Titles
+      6 Find the Employee Who Earns the Highest Salary in Each Department
+      7 Find the Second Highest Salary
+      8 Find the Employees Earning More Than the Average Salary
+      9 Find Employees Who Have Never Received a Bonus (OtherPay = 0)
+      10 Total Salary Paid for Each Job Title
+      11 Which employees have OvertimePay greater than the average OvertimePay? 
+      12 Count number of Employees in Each department( JobTitle)
+      13 Find the Highest Salary, Lowest Salary, and Average Salary in Each Department
+      14 Find Job Roles with More Than 100 Employees
+      15 Find Total Salary(TotalPayBenefits) Paid Per Job Title
+      16 Find Average, Minimum, and Maximum Base Pay
+      17 Find the Department with the Highest Average Salary
+
+
+
+
+
+
+
+
+
+
+
+ 
