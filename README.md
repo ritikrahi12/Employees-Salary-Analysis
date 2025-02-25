@@ -1,4 +1,4 @@
-# Employees-Salary-Analysis
+# Employees_Salary_Analysis
 Employee Management Data Analysis
 In this project, I designed a structured Employee Management System using SQL, Excel, and Power BI to analyze workforce trends and optimize decision-making. The key objectives of the project were:
 
