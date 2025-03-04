@@ -1,25 +1,28 @@
-CREATE DATABASE SALARIES
-USE SALARIES
 CREATE TABLE Employees (
-    EmployeeID INT PRIMARY KEY,
-    EmployeeName VARCHAR(100),
-    Department VARCHAR(100)
+    Employee_ID INT PRIMARY KEY AUTO_INCREMENT,
+    EmployeeName VARCHAR(100)
 );
 
 CREATE TABLE Jobs (
-    JobID INT PRIMARY KEY,
-    JobTitle VARCHAR(100),
-    Department VARCHAR(100)
+    Job_ID INT PRIMARY KEY AUTO_INCREMENT,
+    Job_Title VARCHAR(100)
 );
 
 CREATE TABLE Salaries (
-    SalaryID INT PRIMARY KEY AUTO_INCREMENT,
-    EmployeeID INT,
-    JobID INT,
-    Salary DECIMAL(10,2),
-    FOREIGN KEY (EmployeeID) REFERENCES Employees(EmployeeID) ON DELETE CASCADE,
-    FOREIGN KEY (JobID) REFERENCES Jobs(JobID) ON DELETE CASCADE
+    Job_ID INT,
+    Employee_ID INT,
+    BasePay INT,
+    OvertimePay DECIMAL(10,2),
+    OtherPay DECIMAL(10,2),
+    Benefits VARCHAR(100),
+    TotalPay DECIMAL(10,2),
+    TotalPayBenefits DECIMAL(10,2),
+    Year INT,
+    FOREIGN KEY (Employee_ID) REFERENCES Employees(Employee_ID) ON DELETE CASCADE,
+    FOREIGN KEY (Job_ID) REFERENCES Jobs(Job_ID) ON DELETE CASCADE
 );
+
+
 
 
 
